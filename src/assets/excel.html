@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <title>Excel JavaScript</title>
+  </head>
+  <body>
+    <div id="app" class="container">
+      <div class="excel">
+        <div class="excel__header header-excel">
+          <div class="header-excel__input">
+            <input type="text" value="Название таблицы" />
+          </div>
+          <div class="header-excel__items">
+            <div class="header-excel__button">
+              <span class="material-symbols-outlined"> delete </span>
+            </div>
+            <div class="header-excel__button">
+              <span class="material-symbols-outlined"> logout </span>
+            </div>
+          </div>
+        </div>
+        <div class="excel__toolbar toolbar-excel">
+          <div class="toolbar-excel__button">
+            <span class="material-symbols-outlined"> format_bold </span>
+          </div>
+          <div class="toolbar-excel__button">
+            <span class="material-symbols-outlined"> format_italic </span>
+          </div>
+          <div class="toolbar-excel__button">
+            <span class="material-symbols-outlined"> format_underlined </span>
+          </div>
+          <div class="toolbar-excel__button">
+            <span class="material-symbols-outlined"> format_align_left </span>
+          </div>
+          <div class="toolbar-excel__button">
+            <span class="material-symbols-outlined"> format_align_center </span>
+          </div>
+          <div class="toolbar-excel__button">
+            <span class="material-symbols-outlined"> format_align_right </span>
+          </div>
+        </div>
+        <div class="excel__formula formula-excel">
+          <div class="formula-excel__icon">fx</div>
+          <div class="formula-excel__input" contenteditable></div>
+        </div>
+        <div class="excel__table table-excel">
+          <div class="table-excel__row table-excel__row_title">
+            <div class="table-excel__row-info"></div>
+            <div class="table-excel__row-data">
+              <div class="table-excel__column-info">A</div>
+              <div class="table-excel__column-info">B</div>
+              <div class="table-excel__column-info">C</div>
+            </div>
+          </div>
+          <div class="table-excel__row table-excel__row_content">
+            <div class="table-excel__row-info">1</div>
+            <div class="table-excel__row-data">
+              <div class="table-excel__cell selected" contenteditable>A1</div>
+              <div class="table-excel__cell" contenteditable>A2</div>
+              <div class="table-excel__cell" contenteditable>A3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
