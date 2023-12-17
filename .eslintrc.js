@@ -15,5 +15,15 @@ module.exports = {
     'linebreak-style': 'off',
     semi: ['error', 'never'],
     'quote-props': 0,
+    'require-jsdoc': 'off',
+    'object-curly-spacing': ['error', 'always'],
+    'max-len': ['error', { code: 120 }],
+    'eol-last': 'off',
+    'no-debugger': 'off',
+    'no-unused-vars': 'off',
+    indent: ['error', 2, { MemberExpression: 1 }],
+  },
+  settings: {
+    'import/resolver': 'webpack',
   },
 }

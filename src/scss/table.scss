@@ -13,16 +13,16 @@
   &__row {
     display: flex;
     min-height: $row-height;
-    &_title {
-      position: sticky;
-      z-index: 20;
-      top: 0;
-      left: 0;
-    }
-    &_content {
-      position: absolute;
-      top: $row-height + 2px;
-    }
+    // &_title {
+    //   position: sticky;
+    //   z-index: 20;
+    //   top: 0;
+    //   left: 0;
+    // }
+    // &_content {
+    //   position: absolute;
+    //   top: $row-height + 2px;
+    // }
   }
 
   &__row-info {
